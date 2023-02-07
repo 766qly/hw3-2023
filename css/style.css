@@ -14,10 +14,12 @@ header, nav{
 nav ul li{
     /* Set display, margin, padding, font-size, background-color */
     display: inline;
-    margin: 130px;
+    margin: 0 10%;
     padding: 20px;
     font-size: 20px;
-    background: #eab676
+    background: #eab676;
+    text-align: center;
+    
 
 }
 
@@ -72,7 +74,6 @@ h1, h2, h3{
     column-gap: calc(10% / 3);
     border-radius: 30px;
     grid-template-columns: 1fr 1fr 1fr;
-
     row-gap: 10px;
     background-color: #708090;
 }
@@ -125,6 +126,6 @@ p{
     /* Set margin, line-spacing, list styling  */
     line-height: 1;
     margin: 0 0 20px 60px;
-    list-style: url(/images/sketchbook.png);
+    list-style: url(../images/sketchbook.png);
 
 }
